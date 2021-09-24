@@ -1,0 +1,54 @@
+state_full,state_postal,row,column
+Alabama,AL,5,6
+Alaska,AK,6,1
+Arizona,AZ,4,1
+Arkansas,AR,4,4
+California,CA,3,0
+Colorado,CO,3,2
+Connecticut,CT,2,9
+District of Columbia,DC,4,8
+Delaware,DE,3,9
+Florida,FL,6,8
+Georgia,GA,5,7
+Guam,GU,7,1
+Hawaii,HI,6,0
+Idaho,ID,1,1
+Illinois,IL,1,5
+Indiana,IN,2,5
+Iowa,IA,2,4
+Kansas,KS,4,3
+Kentucky,KY,3,5
+Louisiana,LA,5,4
+Maine,ME,-1,10
+Maryland,MD,3,8
+Massachusetts,MA,1,9
+Michigan,MI,1,6
+Minnesota,MN,1,4
+Mississippi,MS,5,5
+Missouri,MO,3,4
+Montana,MT,1,2
+Nebraska,NE,3,3
+Nevada,NV,2,1
+New Hampshire,NH,0,10
+New Jersey,NJ,2,8
+New Mexico,NM,4,2
+New York,NY,1,8
+North Carolina,NC,4,6
+North Dakota,ND,1,3
+Ohio,OH,2,6
+Oklahoma,OK,5,3
+Oregon,OR,2,0
+Pennsylvania,PA,2,7
+Puerto Rico,PR,7,0
+Rhode Island,RI,2,10
+South Carolina,SC,4,7
+South Dakota,SD,2,3
+Tennessee,TN,4,5
+Texas,TX,6,3
+Utah,UT,3,1
+Vermont,VT,0,9
+Virginia,VA,3,7
+Washington,WA,1,0
+West Virginia,WV,3,6
+Wisconsin,WI,0,5
+Wyoming,WY,2,2

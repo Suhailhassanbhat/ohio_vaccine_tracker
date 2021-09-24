@@ -1,0 +1,69 @@
+{{!< default}}
+<div class='vaccine-container'>
+    <div class='story-body'>
+        <p class="body-text">The COVID-19 Vaccine Tracker charts the course of vaccinations in the state. Here you will find:  the number of COVID-19 doses supplied to the state; the number of doses administered; the vaccine utilization rate; and the share of the population that is vaccinated —  both those fully vaccinated and those that received at least one of the two shots required.</p> 
+    </div>
+    <div id="kentucky-text-graf1"></div>
+    <div id="kentucky-text-graf4"></div>
+    <div class='story-body'>
+        <p class="body-text">The state-level map tracks the progress made by the states in terms of getting shots in the arms of people. It allows a state-by-state comparison of the share of the total population fully vaccinated, the share of the population that received initial vaccination and the percentage of allocated doses administered by the state.</p> 
+    </div>
+    {{> story/vaccination-cartogram }}
+    <div id="kentucky-text-graf2"></div>
+    {{> story/daily-vaccination }}
+    {{> story/county-vaccine-map }}
+    <div class='story-body'>
+        <p class="body-text">Under the Centers for Disease and Prevention Control's vaccine rollout recommendations, the states need to administer doses in multiple phases due to a limited supply of doses at first. In Phase 1, the states will vaccinate people in long-term care facilities, healthcare personnel, first responders, essential workers and anyone age 60 or older or with high-risk health conditions. The CDC, on its website, said that the agency will expand its vaccination recommendations to include more groups when vaccine supply increases.</p> 
+    </div>    
+    {{> story/dosesPercapita}}
+    {{> story/onedose-timechart }}
+    <div>  
+        <a href="https://ohiovalleyresource.org/2020/11/09/tracking-covid-19-in-ohio/" target="_blank"> 
+        <img class="trackerImage" src="/images/oh-covid-image.png" alt="ohCovidTracker" style="width:100%;">
+    </div>
+
+    {{!-- //////////////////////////////////Resources & recommendations//////// --}}
+    <div class='graf-source'>
+        <h2>Resources and Recommendations</h2>
+        <div style='max-width:640px;background-color:#fdfdcb; padding-left:30px;padding-bottom:10px; padding-right:10px; padding-top:10px;'>
+            <p>
+            Take steps to slow the spread of COVID-19. Wear a mask, stay at least 6 feet apart, avoid crowds, and wash your hands often. The more steps you take, the more you are protected against COVID-19.</p>
+            <p> Travel can increase your chance of spreading and getting COVID-19. Postponing travel and staying home is the best way to protect yourself and others from COVID-19.</p>
+            <p> Consider getting tested with a viral test 3–5 days after your trip and reduce non-essential activities for a full 7 days after travel, even if your test is negative. If you don’t get tested, consider reducing non-essential activities for 10 days.</p>
+            <p>If your test is positive, isolate yourself to protect others from getting infected.</p>
+            <p> Testing locations <a href='https://vaccine.coronavirus.ohio.gov/' target="_blank"> here.</a></p>
+            <p> COVID-19 vaccine resources <a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html' target="_blank"> here.</a></p>
+            <p> Ohio vaccine resources <a href='https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/covid-19-vaccine/covid-19-vaccination-dashboard' target="_blank"> here.</a></p>
+            <p> Ohio Department of Health <a href='https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview' target="_blank">here.</a></p>
+            <p><a href='https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview' target="_blank">Myths vs. Facts COVID-19 Vaccine </a></p>
+            <p><a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations.html' target="_blank">CDC’s COVID-19 Vaccine Rollout Recommendations</a></p>
+
+        </div>
+    </div>
+    {{!-- //////////////////////////////////About Data section//////// --}}
+    <div style='margin:20px;width:100%; height:0.5px;background-color:grey;'></div>
+    <div class='graf-source'>
+        <div style='padding-left:30px;padding-bottom:10px; padding-right:10px; padding-top:10px;'>
+
+        <h2>About the data</h2>
+
+            <p style='line-height:1.5; color:grey'>
+            This page uses data from the Centers for Disease Control and Prevention. The federal agency publishes a <a href='https://beta.healthdata.gov/National/COVID-19-Community-Profile-Report/gqxm-d9w9' target="_blank">community profile report</a> most weekdays. Although the report is a delayed by a day compared to the state numbers, it is the most in-depth source of COVID-19 data publicly available. The federal government designs its recommendations and guidelines based on this data. We also collect data from the <a href='https://covid.cdc.gov/covid-data-tracker/#vaccinations' target="_blank">CDC's vaccination tracker</a>.
+            </p>
+            <p style='line-height:1.5; color:grey'>Ohio Department of Public Health's <a href="https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/covid-19-vaccine/covid-19-vaccination-dashboard" target="_blank">dashboard</a> also keeps track of vaccinations.</p>
+            <p style='line-height:1.5; color:grey'>
+            Due to wild variations some data, we presented seven-day to make these charts look sensible.
+            </p>
+
+            <p style='font-size:12px; line-height:1.5; color:grey'>
+           Reporting by <a href='https://wfpl.org/author/sbhat/'>Suhail Bhat</a>
+             </p>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="/scripts/story-text.js"></script> 
+
+
